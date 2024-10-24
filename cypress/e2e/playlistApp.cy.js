@@ -19,7 +19,7 @@ describe('Playlist App Test Suite', () => {
 
     });
 
-    it('should add multiple tracks using checkboxes and "+" buton', () => {
+    it('should add multiple tracks using checkboxes and "+" button', () => {
         cy.visit('https://vite-react-alpha-lemon.vercel.app/');
         cy.get('input[type="text"]').type('A');
 
